@@ -1,0 +1,43 @@
+{
+  "title": "Frontend",
+  "basics": {
+    "label": "Frontend Developer · LiveView, React, JavaScript",
+    "summary": "Developer with more than 12 years of experience building user interfaces: multi-step purchase flows in Phoenix LiveView, web players in React and Redux, and Android apps for phones and set-top boxes. I care about interfaces that are fast, maintainable, and easy to use.",
+    "coreCompetencies": ["Phoenix LiveView", "React and Redux", "JavaScript", "Maps and third-party widgets", "Android UI"]
+  },
+  "work": {
+    "e-Matrix Innovations": {
+      "highlights": [
+        "Designed and built a new application architecture to replace a legacy system with significant technical debt. Rebuilt rather than patched, because the architectural problems could not be fixed incrementally.",
+        "Defined a clear lifecycle for course assignments, moving from a single global state per course to a single state per assignment."
+      ]
+    },
+    "The RealReal": {
+      "highlights": [
+        "Validated and tested the warehouse operations interface, which ran 24/7.",
+        "Worked on the warehouse process for picking, packaging, and shipping, including returns to the original owner and deliveries to buyers."
+      ]
+    },
+    "Super.mx": {
+      "highlights": [
+        "Built the COVID and life insurance purchase flows, then released the life product using LiveView as a multi-step flow.",
+        "Migrated the quake product from Vue.js to LiveView.",
+        "Built reusable flows for life, quake, COVID, and home insurance, including A/B test variants.",
+        "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products.",
+        "Added identity verification with Metamap and mapping with Leaflet and the Google Maps API through Phoenix hooks."
+      ]
+    },
+    "Resuelve": {
+      "highlights": [
+        "Led a team building a WebRTC/SIP client, managing issue delegation, stakeholder collaboration, and PR review.",
+        "Built experimental projects, including an employee management system (attendance, permissions, surveys, payroll) and a football prediction pool as an Ethereum smart contract."
+      ]
+    }
+  },
+  "projects": ["TypingSnail", "WifiFinder", "Alquilame.io", "Modebo"],
+  "skills": [
+    { "name": "Frontend", "keywords": ["Phoenix LiveView", "JavaScript", "React", "Redux", "Vue.js", "Alpine.js", "Tailwind CSS", "HTML/CSS"] },
+    { "name": "Mobile", "keywords": ["Android (Java)", "RecyclerView", "DASH", "HLS"] },
+    { "name": "Tools & Platforms", "keywords": ["Git", "GitHub Actions", "Leaflet", "Google Maps API", "Stripe", "Claude", "OpenCode"] }
+  ]
+}

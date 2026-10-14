@@ -1,0 +1,24 @@
+# Checks that every CV is valid Schema Resume and that the pages were rebuilt.
+name: Check CV
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Pages match resume.json and cv/*.json
+        run: |
+          node build.mjs
+          git diff --exit-code || (echo "::error::Run 'node build.mjs' and commit the result." && exit 1)
+      - name: Valid Schema Resume 1.3
+        run: |
+          curl -sSfL -o /tmp/schema.json https://schema-resume.org/1.3/schema.json
+          npx --yes -p ajv-cli@5 -p ajv-formats@3 ajv validate --spec=draft7 -c ajv-formats --strict=false \
+            -s /tmp/schema.json -d resume.json -d '*/resume.json'

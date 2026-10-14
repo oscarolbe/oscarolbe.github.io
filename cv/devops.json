@@ -1,0 +1,49 @@
+{
+  "title": "DevOps",
+  "basics": {
+    "label": "Software Developer · DevOps, Docker, PostgreSQL",
+    "summary": "Developer with more than 12 years of experience who also owns how software gets to production: building and publishing Docker images, deploying to Linux servers over SSH, running production PostgreSQL, and automating builds with GitHub Actions. I care about systems that are maintainable and reliable.",
+    "coreCompetencies": ["Docker deployments", "Production PostgreSQL", "Linux servers", "CI/CD with GitHub Actions", "Event queues with Kafka"]
+  },
+  "work": {
+    "e-Matrix Innovations": {
+      "highlights": [
+        "Handle DevOps: Docker images are built locally, published to Docker Hub, and deployed over SSH by pulling the new image and restarting the containers.",
+        "Manage production PostgreSQL databases and the single production VPS.",
+        "Designed and built a new application architecture to replace a legacy system with significant technical debt. Rebuilt rather than patched, because the architectural problems could not be fixed incrementally."
+      ]
+    },
+    "The RealReal": {
+      "highlights": [
+        "Built and maintained Elixir/Phoenix microservices that consumed operations queued through Kafka and communicated with a Ruby on Rails monolith.",
+        "Validated and tested the warehouse operations interface, which ran 24/7.",
+        "Followed a team process requiring a dedicated pull request with detailed explanations and diagrams for every database migration, and wrote RFCs for large or controversial features."
+      ]
+    },
+    "Super.mx": {
+      "highlights": [
+        "Improved security by hashing sensitive values and adding magic-link login.",
+        "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products."
+      ]
+    },
+    "Resuelve": {
+      "highlights": [
+        "Built an integration with a CRM using the WhatsApp API, running local proxy containers that connected to a MySQL service on Google Cloud.",
+        "Contributed open-source Elixir libraries: wax and rfc_facil."
+      ]
+    },
+    "Global Hitss": {
+      "highlights": [
+        "Led the redesign and maintenance of the Clarovideo streaming app for Android mobile and set-top boxes.",
+        "Managed six developers by delegating tickets and providing technical guidance."
+      ]
+    }
+  },
+  "projects": ["TypingSnail", "Alquilame.io"],
+  "skills": [
+    { "name": "Infrastructure", "keywords": ["Docker", "Docker Hub", "Linux VPS", "SSH", "Google Cloud"] },
+    { "name": "CI/CD", "keywords": ["GitHub Actions", "GitHub Pages", "Git"] },
+    { "name": "Data & Messaging", "keywords": ["PostgreSQL", "MySQL", "Kafka"] },
+    { "name": "Languages", "keywords": ["Elixir", "Phoenix", "Python", "PHP", "JavaScript", "SQL"] }
+  ]
+}

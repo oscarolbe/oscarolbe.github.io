@@ -1,0 +1,22 @@
+{
+  "title": "Backend",
+  "basics": {
+    "label": "Backend Developer · Elixir, Phoenix, PostgreSQL",
+    "summary": "Backend developer with more than 12 years of experience and a five-year focus on Elixir. I design application architecture, model business rules and data lifecycles, and build integrations with payments, messaging, and event queues. Comfortable as a team member, a technical lead, or the person who designs the architecture.",
+    "coreCompetencies": ["Application architecture", "Elixir and Phoenix", "PostgreSQL and MySQL", "Payment integrations", "Event-driven microservices"]
+  },
+  "work": {
+    "Global Hitss": {
+      "highlights": [
+        "Led the redesign and maintenance of the Clarovideo streaming app for Android mobile and set-top boxes.",
+        "Managed six developers by delegating tickets and providing technical guidance."
+      ]
+    }
+  },
+  "projects": ["Alquilame.io", "wax", "rfc_facil", "TypingSnail"],
+  "skills": [
+    { "name": "Backend", "keywords": ["Elixir", "Phoenix", "PHP", "Python", "Ruby on Rails", "SQL", "REST APIs", "GraphQL"] },
+    { "name": "Data & Messaging", "keywords": ["PostgreSQL", "MySQL", "Kafka", "Stripe", "WhatsApp Business API"] },
+    { "name": "Tools & Platforms", "keywords": ["Docker", "Git", "GitHub Actions", "Google Cloud", "Claude", "OpenCode"] }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "$schema": "https://schema-resume.org/1.3/schema.json",
+  "@context": "https://schema-resume.org/1.3/context.jsonld",
+  "basics": {
+    "name": "Oscar Olivera",
+    "label": "Software Developer · Elixir, Phoenix, LiveView",
+    "email": "oscarolbe@gmail.com",
+    "url": "https://oscarolbe.github.io/",
+    "summary": "Software developer with more than 12 years of experience, from maintaining existing systems to building new products from scratch. Android and web applications with Node, Python, and PHP, and for the last five years a focus on Elixir. Comfortable as a team member, a technical lead, or the person who designs the architecture. I enjoy learning new tools and languages, and I care about software that is maintainable and reliable.",
+    "profiles": [
+      { "network": "LinkedIn", "username": "oscarolbe", "url": "https://www.linkedin.com/in/oscarolbe/" },
+      { "network": "GitHub", "username": "oscarolbe", "url": "https://github.com/oscarolbe" }
+    ]
+  },
+  "work": [
+    {
+      "name": "e-Matrix Innovations",
+      "position": "Software Developer",
+      "url": "https://e-matrix.at",
+      "description": "EdTech instructional-tracking platform",
+      "startDate": "2023-12",
+      "endDate": "2026-11",
+      "summary": "Platform for enterprises, factories, and other organizations to create training programs for technical staff, track employee progress through learning paths, document required certifications, analyze training effectiveness, and streamline onboarding.",
+      "highlights": [
+        "Designed and built a new application architecture to replace a legacy system with significant technical debt. Rebuilt rather than patched, because the architectural problems could not be fixed incrementally.",
+        "Defined a clear lifecycle for course assignments, moving from a single global state per course to a single state per assignment.",
+        "Enforced business rules such as preventing duplicate course creation and respecting due dates, including assignments from different teams for the same course.",
+        "Built tracking for learner and employer enrollments, including automatic re-enrollment when courses change or renew.",
+        "Manage production PostgreSQL databases and the single production VPS.",
+        "Handle DevOps: Docker images are built locally, published to Docker Hub, and deployed over SSH by pulling the new image and restarting the containers."
+      ],
+      "keywords": ["Elixir", "Phoenix", "LiveView", "PostgreSQL", "Docker", "Docker Hub", "SSH", "Linux VPS", "multi-tenant data model"]
+    },
+    {
+      "name": "The RealReal",
+      "position": "Senior Software Engineer",
+      "description": "Luxury consignment marketplace",
+      "workLocation": "USA",
+      "startDate": "2022-12",
+      "endDate": "2023-11",
+      "summary": "Member of the Outbound team, about nine people including the Product Owner, Project Manager, QA, and developers based in Brazil, Canada, and Mexico.",
+      "highlights": [
+        "Worked on the warehouse process for picking, packaging, and shipping, including returns to the original owner and deliveries to buyers.",
+        "Validated and tested the warehouse operations interface, which ran 24/7.",
+        "Built and maintained Elixir/Phoenix microservices that consumed operations queued through Kafka and communicated with a Ruby on Rails monolith.",
+        "Followed a team process requiring a dedicated pull request with detailed explanations and diagrams for every database migration, and wrote RFCs for large or controversial features."
+      ],
+      "keywords": ["Elixir", "Phoenix", "Ruby on Rails", "Kafka", "microservices", "RFC process"]
+    },
+    {
+      "name": "Super.mx",
+      "position": "Senior Software Engineer",
+      "description": "Insurtech startup",
+      "workLocation": "Mexico",
+      "startDate": "2020-10",
+      "endDate": "2022-10",
+      "summary": "Joined as the second full-time engineer and worked on the monolithic Elixir application. The team had no fixed hierarchy, and everyone worked at a senior level.",
+      "highlights": [
+        "Built the COVID and life insurance purchase flows, then released the life product using LiveView as a multi-step flow.",
+        "Migrated the quake product from Vue.js to LiveView.",
+        "Built reusable flows for life, quake, COVID, and home insurance, including A/B test variants.",
+        "Built the life insurance renewal process: new documents, a new Stripe subscription, and endorsements.",
+        "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products.",
+        "Improved security by hashing sensitive values and adding magic-link login.",
+        "Added identity verification with Metamap and mapping with Leaflet and the Google Maps API through Phoenix hooks.",
+        "Generated and manipulated PDFs with wkhtmltopdf and PDFtk."
+      ],
+      "keywords": ["Elixir", "Phoenix", "LiveView", "JavaScript hooks", "Alpine.js", "Tailwind CSS", "Stripe", "Metamap", "Leaflet", "Google Maps API", "wkhtmltopdf", "PDFtk"]
+    },
+    {
+      "name": "Resuelve",
+      "position": "Senior Lead",
+      "description": "Credit-repair platform",
+      "workLocation": "Mexico, Colombia, Spain, Italy",
+      "startDate": "2017-02",
+      "endDate": "2020-10",
+      "summary": "Worked on a team that chose Elixir for most projects built from scratch.",
+      "highlights": [
+        "Automated the subscription process: a savings account, PDF contracts, and an internal system for validating identity documents.",
+        "Built an integration with a CRM using the WhatsApp API, running local proxy containers that connected to a MySQL service on Google Cloud.",
+        "Built experimental projects, including an employee management system (attendance, permissions, surveys, payroll) and a football prediction pool as an Ethereum smart contract.",
+        "Led a team building a WebRTC/SIP client, managing issue delegation, stakeholder collaboration, and PR review.",
+        "Contributed open-source Elixir libraries: wax and rfc_facil."
+      ],
+      "keywords": ["Elixir", "Phoenix", "React", "Redux", "WhatsApp Business API", "WebRTC/SIP client (SIP.js) with an Elixir backend", "MySQL", "Google Cloud", "Docker", "Solidity", "Ethereum", "Santander Bank payment integration"]
+    },
+    {
+      "name": "Global Hitss",
+      "position": "Technical Lead",
+      "description": "Clarovideo streaming platform",
+      "workLocation": "Latin America",
+      "startDate": "2015-06",
+      "endDate": "2017-02",
+      "highlights": [
+        "Led the redesign and maintenance of the Clarovideo streaming app for Android mobile and set-top boxes.",
+        "Led the redesign that changed the interface and improved performance, including replacing ListView with RecyclerView and prefetching API requests based on user focus.",
+        "Upgraded the mobile player to support DASH alongside HLS.",
+        "Involved in ClaroMúsica web player events using React/Redux.",
+        "Managed six developers by delegating tickets and providing technical guidance."
+      ],
+      "keywords": ["Android (Java)", "PHP", "React", "Redux", "RecyclerView", "DASH", "HLS"]
+    },
+    { "name": "Linio México", "position": "Master Developer", "startDate": "2014-04", "endDate": "2015-06" },
+    { "name": "Inbursa", "position": "Developer", "startDate": "2013-11", "endDate": "2014-04" },
+    { "name": "Hildebrando", "position": "Analyst", "startDate": "2013-03", "endDate": "2013-11" },
+    { "name": "CTIN, Grupo Carso", "position": "Internship", "startDate": "2012-03", "endDate": "2013-03" }
+  ],
+  "projects": [
+    {
+      "name": "Alquilame.io",
+      "type": "application",
+      "roles": ["Founder", "CEO"],
+      "description": "Founder and CEO of a SaaS platform powering rental businesses for vehicles and event equipment across Latin America."
+    },
+    {
+      "name": "TypingSnail",
+      "type": "application",
+      "description": "Open-source typing game that helps children learn to type.",
+      "url": "https://github.com/oscarolbe/typingsnail",
+      "keywords": ["JavaScript", "HTML canvas", "Web Audio", "GitHub Actions", "GitHub Pages"]
+    },
+    {
+      "name": "Modebo",
+      "type": "application",
+      "description": "Metrics dashboard showing data from sensors in homes and industry, used to improve efficiency. Android application built in Java.",
+      "keywords": ["Android", "Java"]
+    },
+    {
+      "name": "WifiFinder",
+      "type": "application",
+      "description": "Map of free Telmex Wi-Fi hotspots across Mexico."
+    },
+    {
+      "name": "wax",
+      "type": "library",
+      "entity": "Resuelve",
+      "description": "Open-source Elixir library.",
+      "url": "https://github.com/resuelve/wax",
+      "keywords": ["Elixir"]
+    },
+    {
+      "name": "rfc_facil",
+      "type": "library",
+      "entity": "Resuelve",
+      "description": "Open-source Elixir library.",
+      "url": "https://github.com/resuelve/rfc_facil",
+      "keywords": ["Elixir"]
+    },
+    { "name": "Elixir Conf Aurora", "type": "conference", "roles": ["Attendee"], "startDate": "2019" },
+    { "name": "Code BEAM Europe, Berlin", "type": "conference", "roles": ["Attendee"], "startDate": "2024" },
+    { "name": "Elixir Conf EU, Kraków, Poland", "type": "conference", "roles": ["Attendee"], "startDate": "2025" }
+  ],
+  "education": [
+    {
+      "institution": "Universidad del Valle de México (UVM)",
+      "studyType": "Master's",
+      "area": "Data Science",
+      "endDate": "2023-09"
+    },
+    {
+      "institution": "Instituto Politécnico Nacional (IPN), ESIME Zacatenco",
+      "studyType": "Engineering",
+      "area": "Communications and Electronics",
+      "startDate": "2009",
+      "endDate": "2013"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages & Frameworks",
+      "keywords": ["Elixir", "Phoenix", "LiveView", "JavaScript", "React", "Redux", "PHP", "Python", "Java (Android)", "HTML/CSS", "SQL"]
+    },
+    {
+      "name": "Tools & Platforms",
+      "keywords": ["Docker", "Git", "GitHub Actions", "PostgreSQL", "MySQL", "REST APIs", "GraphQL", "Kafka", "Claude", "OpenCode"]
+    }
+  ],
+  "languages": [
+    { "language": "Spanish", "fluency": "Native" },
+    { "language": "English", "fluency": "B2" },
+    { "language": "German", "fluency": "A2" }
+  ],
+  "interests": [
+    { "name": "Exercise" },
+    { "name": "Reading with my children" },
+    { "name": "Watching films in English and other languages" }
+  ],
+  "meta": {
+    "canonical": "https://oscarolbe.github.io/resume.json",
+    "version": "1.0.0",
+    "lastModified": "2026-10-14"
+  }
+}

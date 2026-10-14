@@ -11,11 +11,17 @@
         "Led the redesign and maintenance of the Clarovideo streaming app for Android mobile and set-top boxes.",
         "Managed six developers by delegating tickets and providing technical guidance."
       ]
+    },
+    "Linio México": {
+      "highlights": [
+        "Built the Shipping Routing Tables application in Symfony to manage all delivery routing tables, communicating with third-party shipping providers.",
+        "Reviewed and fixed issues in the Go script that synchronized merchandise from the back office to the e-commerce storefront."
+      ]
     }
   },
   "projects": ["Alquilame.io", "wax", "rfc_facil", "TypingSnail"],
   "skills": [
-    { "name": "Backend", "keywords": ["Elixir", "Phoenix", "PHP", "Python", "Ruby on Rails", "SQL", "REST APIs", "GraphQL"] },
+    { "name": "Backend", "keywords": ["Elixir", "Phoenix", "PHP", "Symfony", "Go", "Python", "Ruby on Rails", "SQL", "REST APIs", "GraphQL"] },
     { "name": "Data & Messaging", "keywords": ["PostgreSQL", "MySQL", "Kafka", "Stripe", "WhatsApp Business API"] },
     { "name": "Tools & Platforms", "keywords": ["Docker", "Git", "GitHub Actions", "Google Cloud", "Claude", "OpenCode"] }
   ]

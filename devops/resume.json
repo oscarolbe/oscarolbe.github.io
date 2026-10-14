@@ -156,8 +156,22 @@
     {
       "name": "Linio México",
       "position": "Master Developer",
+      "description": "E-commerce marketplace",
+      "workLocation": "Mexico",
       "startDate": "2014-04",
-      "endDate": "2015-06"
+      "endDate": "2015-06",
+      "highlights": [
+        "Reviewed and fixed issues in the Go script that synchronized merchandise from the back office to the e-commerce storefront."
+      ],
+      "keywords": [
+        "PHP",
+        "Yii Framework",
+        "Zend Framework",
+        "Symfony",
+        "Go",
+        "SEO",
+        "third-party shipping integrations"
+      ]
     },
     {
       "name": "Inbursa",
@@ -276,6 +290,7 @@
         "Phoenix",
         "Python",
         "PHP",
+        "Go",
         "JavaScript",
         "SQL"
       ]

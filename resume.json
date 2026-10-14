@@ -101,7 +101,21 @@
       ],
       "keywords": ["Android (Java)", "PHP", "React", "Redux", "RecyclerView", "DASH", "HLS"]
     },
-    { "name": "Linio México", "position": "Master Developer", "startDate": "2014-04", "endDate": "2015-06" },
+    {
+      "name": "Linio México",
+      "position": "Master Developer",
+      "description": "E-commerce marketplace",
+      "workLocation": "Mexico",
+      "startDate": "2014-04",
+      "endDate": "2015-06",
+      "highlights": [
+        "Built the frontend pagination and canonical URL handling for catalog pages in Yii Framework.",
+        "Redesigned the checkout page on the original Yii Framework/Zend Framework stack.",
+        "Reviewed and fixed issues in the Go script that synchronized merchandise from the back office to the e-commerce storefront.",
+        "Built the Shipping Routing Tables application in Symfony to manage all delivery routing tables, communicating with third-party shipping providers."
+      ],
+      "keywords": ["PHP", "Yii Framework", "Zend Framework", "Symfony", "Go", "SEO", "third-party shipping integrations"]
+    },
     { "name": "Inbursa", "position": "Developer", "startDate": "2013-11", "endDate": "2014-04" },
     { "name": "Hildebrando", "position": "Analyst", "startDate": "2013-03", "endDate": "2013-11" },
     { "name": "CTIN, Grupo Carso", "position": "Internship", "startDate": "2012-03", "endDate": "2013-03" }
@@ -169,7 +183,7 @@
   "skills": [
     {
       "name": "Languages & Frameworks",
-      "keywords": ["Elixir", "Phoenix", "LiveView", "JavaScript", "React", "Redux", "PHP", "Python", "Java (Android)", "HTML/CSS", "SQL"]
+      "keywords": ["Elixir", "Phoenix", "LiveView", "JavaScript", "React", "Redux", "PHP", "Yii Framework", "Zend Framework", "Symfony", "Go", "Python", "Java (Android)", "HTML/CSS", "SQL"]
     },
     {
       "name": "Tools & Platforms",

@@ -32,6 +32,12 @@
         "Led a team building a WebRTC/SIP client, managing issue delegation, stakeholder collaboration, and PR review.",
         "Built experimental projects, including an employee management system (attendance, permissions, surveys, payroll) and a football prediction pool as an Ethereum smart contract."
       ]
+    },
+    "Linio México": {
+      "highlights": [
+        "Built the frontend pagination and canonical URL handling for catalog pages in Yii Framework.",
+        "Redesigned the checkout page on the original Yii Framework/Zend Framework stack."
+      ]
     }
   },
   "projects": ["TypingSnail", "WifiFinder", "Alquilame.io", "Modebo"],

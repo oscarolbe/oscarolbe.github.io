@@ -38,6 +38,11 @@
         "Led the redesign and maintenance of the Clarovideo streaming app for Android mobile and set-top boxes.",
         "Managed six developers by delegating tickets and providing technical guidance."
       ]
+    },
+    "Linio México": {
+      "highlights": [
+        "Reviewed and fixed issues in the Go script that synchronized merchandise from the back office to the e-commerce storefront."
+      ]
     }
   },
   "projects": ["TypingSnail", "Alquilame.io"],
@@ -45,6 +50,6 @@
     { "name": "Infrastructure", "keywords": ["Docker", "Docker Hub", "Kubernetes", "Linux VPS", "SSH", "Google Cloud"] },
     { "name": "CI/CD", "keywords": ["GitHub Actions", "GitHub Pages", "Git"] },
     { "name": "Data & Messaging", "keywords": ["PostgreSQL", "MySQL", "Kafka"] },
-    { "name": "Languages", "keywords": ["Elixir", "Phoenix", "Python", "PHP", "JavaScript", "SQL"] }
+    { "name": "Languages", "keywords": ["Elixir", "Phoenix", "Python", "PHP", "Go", "JavaScript", "SQL"] }
   ]
 }

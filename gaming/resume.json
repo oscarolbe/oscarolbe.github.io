@@ -153,8 +153,20 @@
     {
       "name": "Linio México",
       "position": "Master Developer",
+      "description": "E-commerce marketplace",
+      "workLocation": "Mexico",
       "startDate": "2014-04",
-      "endDate": "2015-06"
+      "endDate": "2015-06",
+      "highlights": [],
+      "keywords": [
+        "PHP",
+        "Yii Framework",
+        "Zend Framework",
+        "Symfony",
+        "Go",
+        "SEO",
+        "third-party shipping integrations"
+      ]
     },
     {
       "name": "Inbursa",

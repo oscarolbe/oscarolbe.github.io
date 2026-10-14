@@ -158,8 +158,23 @@
     {
       "name": "Linio México",
       "position": "Master Developer",
+      "description": "E-commerce marketplace",
+      "workLocation": "Mexico",
       "startDate": "2014-04",
-      "endDate": "2015-06"
+      "endDate": "2015-06",
+      "highlights": [
+        "Built the frontend pagination and canonical URL handling for catalog pages in Yii Framework.",
+        "Redesigned the checkout page on the original Yii Framework/Zend Framework stack."
+      ],
+      "keywords": [
+        "PHP",
+        "Yii Framework",
+        "Zend Framework",
+        "Symfony",
+        "Go",
+        "SEO",
+        "third-party shipping integrations"
+      ]
     },
     {
       "name": "Inbursa",

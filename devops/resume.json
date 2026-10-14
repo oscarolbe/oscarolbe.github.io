@@ -21,6 +21,7 @@
     ],
     "coreCompetencies": [
       "Docker deployments",
+      "Kubernetes rolling updates",
       "Production PostgreSQL",
       "Linux servers",
       "CI/CD with GitHub Actions",
@@ -111,6 +112,7 @@
       "endDate": "2020-10",
       "summary": "Worked on a team that chose Elixir for most projects built from scratch.",
       "highlights": [
+        "Worked with the DevOps engineer to set up a Kubernetes rolling-update deployment for a high-demand application, so new releases went out without downtime.",
         "Built an integration with a CRM using the WhatsApp API, running local proxy containers that connected to a MySQL service on Google Cloud.",
         "Contributed open-source Elixir libraries: wax and rfc_facil."
       ],
@@ -124,6 +126,7 @@
         "MySQL",
         "Google Cloud",
         "Docker",
+        "Kubernetes",
         "Solidity",
         "Ethereum",
         "Santander Bank payment integration"
@@ -244,6 +247,7 @@
       "keywords": [
         "Docker",
         "Docker Hub",
+        "Kubernetes",
         "Linux VPS",
         "SSH",
         "Google Cloud"

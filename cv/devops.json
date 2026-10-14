@@ -3,7 +3,7 @@
   "basics": {
     "label": "Software Developer · DevOps, Docker, PostgreSQL",
     "summary": "Developer with more than 12 years of experience who also owns how software gets to production: building and publishing Docker images, deploying to Linux servers over SSH, running production PostgreSQL, and automating builds with GitHub Actions. I care about systems that are maintainable and reliable.",
-    "coreCompetencies": ["Docker deployments", "Production PostgreSQL", "Linux servers", "CI/CD with GitHub Actions", "Event queues with Kafka"]
+    "coreCompetencies": ["Docker deployments", "Kubernetes rolling updates", "Production PostgreSQL", "Linux servers", "CI/CD with GitHub Actions", "Event queues with Kafka"]
   },
   "work": {
     "e-Matrix Innovations": {
@@ -28,6 +28,7 @@
     },
     "Resuelve": {
       "highlights": [
+        "Worked with the DevOps engineer to set up a Kubernetes rolling-update deployment for a high-demand application, so new releases went out without downtime.",
         "Built an integration with a CRM using the WhatsApp API, running local proxy containers that connected to a MySQL service on Google Cloud.",
         "Contributed open-source Elixir libraries: wax and rfc_facil."
       ]
@@ -41,7 +42,7 @@
   },
   "projects": ["TypingSnail", "Alquilame.io"],
   "skills": [
-    { "name": "Infrastructure", "keywords": ["Docker", "Docker Hub", "Linux VPS", "SSH", "Google Cloud"] },
+    { "name": "Infrastructure", "keywords": ["Docker", "Docker Hub", "Kubernetes", "Linux VPS", "SSH", "Google Cloud"] },
     { "name": "CI/CD", "keywords": ["GitHub Actions", "GitHub Pages", "Git"] },
     { "name": "Data & Messaging", "keywords": ["PostgreSQL", "MySQL", "Kafka"] },
     { "name": "Languages", "keywords": ["Elixir", "Phoenix", "Python", "PHP", "JavaScript", "SQL"] }

@@ -80,9 +80,10 @@
         "Built an integration with a CRM using the WhatsApp API, running local proxy containers that connected to a MySQL service on Google Cloud.",
         "Built experimental projects, including an employee management system (attendance, permissions, surveys, payroll) and a football prediction pool as an Ethereum smart contract.",
         "Led a team building a WebRTC/SIP client, managing issue delegation, stakeholder collaboration, and PR review.",
+        "Worked with the DevOps engineer to set up a Kubernetes rolling-update deployment for a high-demand application, so new releases went out without downtime.",
         "Contributed open-source Elixir libraries: wax and rfc_facil."
       ],
-      "keywords": ["Elixir", "Phoenix", "React", "Redux", "WhatsApp Business API", "WebRTC/SIP client (SIP.js) with an Elixir backend", "MySQL", "Google Cloud", "Docker", "Solidity", "Ethereum", "Santander Bank payment integration"]
+      "keywords": ["Elixir", "Phoenix", "React", "Redux", "WhatsApp Business API", "WebRTC/SIP client (SIP.js) with an Elixir backend", "MySQL", "Google Cloud", "Docker", "Kubernetes", "Solidity", "Ethereum", "Santander Bank payment integration"]
     },
     {
       "name": "Global Hitss",
@@ -172,7 +173,7 @@
     },
     {
       "name": "Tools & Platforms",
-      "keywords": ["Docker", "Git", "GitHub Actions", "PostgreSQL", "MySQL", "REST APIs", "GraphQL", "Kafka", "Claude", "OpenCode"]
+      "keywords": ["Docker", "Kubernetes", "Git", "GitHub Actions", "PostgreSQL", "MySQL", "REST APIs", "GraphQL", "Kafka", "Claude", "OpenCode"]
     }
   ],
   "languages": [

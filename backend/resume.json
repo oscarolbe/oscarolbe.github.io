@@ -6,6 +6,10 @@
     "label": "Backend Developer · Elixir, Phoenix, PostgreSQL",
     "email": "oscarolbe@gmail.com",
     "url": "https://oscarolbe.github.io/",
+    "location": {
+      "countryCode": "AT",
+      "relocation": "Moving back to Mexico in summer 2027. Open to roles based in Austria, in Mexico, or remote in either time zone."
+    },
     "summary": "Backend developer with more than 12 years of experience and a five-year focus on Elixir. I design application architecture, model business rules and data lifecycles, and build integrations with payments, messaging, and event queues. Comfortable as a team member, a technical lead, or the person who designs the architecture.",
     "profiles": [
       {

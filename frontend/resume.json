@@ -6,6 +6,10 @@
     "label": "Frontend Developer · LiveView, React, JavaScript",
     "email": "oscarolbe@gmail.com",
     "url": "https://oscarolbe.github.io/",
+    "location": {
+      "countryCode": "AT",
+      "relocation": "Moving back to Mexico in summer 2027. Open to roles based in Austria, in Mexico, or remote in either time zone."
+    },
     "summary": "Developer with more than 12 years of experience building user interfaces: multi-step purchase flows in Phoenix LiveView, web players in React and Redux, and Android apps for phones and set-top boxes. I care about interfaces that are fast, maintainable, and easy to use.",
     "profiles": [
       {

@@ -6,6 +6,10 @@
     "label": "Software Developer · Games & Interactive Apps",
     "email": "oscarolbe@gmail.com",
     "url": "https://oscarolbe.github.io/",
+    "location": {
+      "countryCode": "AT",
+      "relocation": "Moving back to Mexico in summer 2027. Open to roles based in Austria, in Mexico, or remote in either time zone."
+    },
     "summary": "Developer with more than 12 years of experience building interactive software: an open-source typing game for children, a streaming app for set-top boxes driven by remote-control focus, real-time WebRTC calling, and a football prediction pool on Ethereum. I enjoy making software that people want to come back to.",
     "profiles": [
       {

@@ -6,6 +6,10 @@
     "label": "Software Developer · Elixir, Phoenix, LiveView",
     "email": "oscarolbe@gmail.com",
     "url": "https://oscarolbe.github.io/",
+    "location": {
+      "countryCode": "AT",
+      "relocation": "Moving back to Mexico in summer 2027. Open to roles based in Austria, in Mexico, or remote in either time zone."
+    },
     "summary": "Software developer with more than 12 years of experience, from maintaining existing systems to building new products from scratch. Android and web applications with Node, Python, and PHP, and for the last five years a focus on Elixir. Comfortable as a team member, a technical lead, or the person who designs the architecture. I enjoy learning new tools and languages, and I care about software that is maintainable and reliable.",
     "profiles": [
       { "network": "LinkedIn", "username": "oscarolbe", "url": "https://www.linkedin.com/in/oscarolbe/" },

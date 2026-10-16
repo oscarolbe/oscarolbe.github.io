@@ -6,6 +6,10 @@
     "label": "Software Developer · DevOps, Docker, PostgreSQL",
     "email": "oscarolbe@gmail.com",
     "url": "https://oscarolbe.github.io/",
+    "location": {
+      "countryCode": "AT",
+      "relocation": "Moving back to Mexico in summer 2027. Open to roles based in Austria, in Mexico, or remote in either time zone."
+    },
     "summary": "Developer with more than 12 years of experience who also owns how software gets to production: building and publishing Docker images, deploying to Linux servers over SSH, running production PostgreSQL, and automating builds with GitHub Actions. I care about systems that are maintainable and reliable.",
     "profiles": [
       {

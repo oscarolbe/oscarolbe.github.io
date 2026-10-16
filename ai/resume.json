@@ -6,6 +6,10 @@
     "label": "Software Developer · AI products, Elixir, Phoenix",
     "email": "oscarolbe@gmail.com",
     "url": "https://oscarolbe.github.io/",
+    "location": {
+      "countryCode": "AT",
+      "relocation": "Moving back to Mexico in summer 2027. Open to roles based in Austria, in Mexico, or remote in either time zone."
+    },
     "summary": "Software developer with more than 12 years of experience and a master's in Data Science. I build products on top of AI decision models: Comparo Seguro estimates insurance with two models from different companies that must agree before a value counts, and Walkable Town recommends neighborhood shops with TypeSafe's Jev. I use Claude Code, Claude Artifacts, and Claude scheduled tasks as part of my development process. I care about AI output that is checked, explained, and replaced by real data when there is some.",
     "profiles": [
       {

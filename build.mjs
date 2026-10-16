@@ -52,6 +52,7 @@ function applyOverlay(base, area) {
 
 // ---- HTML --------------------------------------------------------------------
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const countryName = code => new Intl.DisplayNames(['en'], { type: 'region' }).of(code);
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const date = d => {
   const [y, m] = d.split('-');
@@ -126,7 +127,8 @@ ${css.trimEnd().replace(/^(?=.)/gm, '  ')}
 <header>
   <p class="cv-nav">CV: ${nav}</p>
   <h1>${esc(b.name)}</h1>
-  <p class="role">${esc(b.label)}</p>
+  <p class="role">${esc(b.label)}</p>${b.location?.countryCode ? `
+  <p class="location">Based in ${esc([b.location.city, countryName(b.location.countryCode)].filter(Boolean).join(', '))}${b.location.relocation ? `. ${esc(b.location.relocation)}` : ''}</p>` : ''}
   <p class="links">
 ${(b.profiles ?? []).map(p => `    <a href="${esc(p.url)}">${esc(p.network)}</a>`).join('\n')}${b.email ? `
     <a href="mailto:${esc(b.email)}">${esc(b.email)}</a>` : ''}

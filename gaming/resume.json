@@ -209,6 +209,36 @@
       ]
     },
     {
+      "name": "Walkable Town",
+      "type": "application",
+      "description": "Pixel-art town where each neighborhood's small businesses get a building on the street. Visitors walk in, see the products on the shelves, and go to the shop's website or WhatsApp.",
+      "url": "https://walkabletown.store",
+      "startDate": "2026-10",
+      "highlights": [
+        "Businesses join by pasting their website: the app reads the Shopify catalog or the schema.org data on the site and places the shop in its neighborhood by postal code. Fetching URLs typed by strangers is protected against requests to private addresses, oversized responses, and abuse.",
+        "Set up a self-hosted Crawlee Cloud (an Apify-compatible platform) with Docker Compose and wrote the Actor that fetches store pages through a proxy pool, because store platforms rate-limit a single server IP across all their shops.",
+        "Background crawler that seeds towns from a public store directory: it obeys robots.txt and Retry-After, spaces requests with random delays and exponential backoff, and keeps its progress in the database so it resumes after a restart and can be paused from the release shell.",
+        "Shop recommendations after a chat with a town character, using TypeSafe's Jev decision model: the chat is the context and the stores are the options of one question. Countries with more than 255 stores run as a tournament of questions.",
+        "Game drawn with Canvas 2D in plain JavaScript, with no build step and no image files: every sprite is drawn in code, with regional looks for 13 countries.",
+        "Rentable billboards in each town, paid through Stripe Checkout and shown to everyone on the street as soon as the payment succeeds.",
+        "Built with Claude Code as part of the development process."
+      ],
+      "keywords": [
+        "Elixir",
+        "Phoenix",
+        "SQLite",
+        "JavaScript",
+        "Canvas 2D",
+        "schema.org",
+        "Crawlee Cloud",
+        "Docker",
+        "TypeSafe Jev",
+        "Stripe",
+        "Cloudflare",
+        "Claude Code"
+      ]
+    },
+    {
       "name": "Alquilame.io",
       "type": "application",
       "roles": [

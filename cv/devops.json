@@ -46,7 +46,7 @@
       ]
     }
   },
-  "projects": ["TypingSnail", "Alquilame.io"],
+  "projects": ["Walkable Town", "TypingSnail", "Alquilame.io"],
   "skills": [
     { "name": "Infrastructure", "keywords": ["Docker", "Docker Hub", "Kubernetes", "Linux VPS", "SSH", "Google Cloud"] },
     { "name": "CI/CD", "keywords": ["GitHub Actions", "GitHub Pages", "Git"] },

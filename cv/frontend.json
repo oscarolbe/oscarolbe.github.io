@@ -41,7 +41,7 @@
       ]
     }
   },
-  "projects": ["TypingSnail", "WifiFinder", "Alquilame.io", "Modebo"],
+  "projects": ["TypingSnail", "Walkable Town", "WifiFinder", "Alquilame.io", "Modebo"],
   "skills": [
     { "name": "Frontend", "keywords": ["Phoenix LiveView", "JavaScript", "React", "Redux", "Vue.js", "Alpine.js", "Tailwind CSS", "HTML/CSS"] },
     { "name": "Mobile", "keywords": ["Android (Java)", "RecyclerView", "DASH", "HLS"] },

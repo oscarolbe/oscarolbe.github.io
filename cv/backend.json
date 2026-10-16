@@ -19,7 +19,7 @@
       ]
     }
   },
-  "projects": ["Alquilame.io", "wax", "rfc_facil", "TypingSnail"],
+  "projects": ["Comparo Seguro", "Walkable Town", "Alquilame.io", "wax", "rfc_facil", "TypingSnail"],
   "skills": [
     { "name": "Backend", "keywords": ["Elixir", "Phoenix", "PHP", "Symfony", "Go", "Python", "Ruby on Rails", "SQL", "REST APIs", "GraphQL"] },
     { "name": "Data & Messaging", "keywords": ["PostgreSQL", "MySQL", "Kafka", "Stripe", "WhatsApp Business API"] },

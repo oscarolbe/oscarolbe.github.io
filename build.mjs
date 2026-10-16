@@ -153,12 +153,18 @@ ${apps.length ? `
 <section>
   <h2>Projects</h2>
   <div class="skills-grid">
-${apps.map(p => `    <div class="card">
+${apps.map((p, i) => `    <div class="card${p.highlights?.length ? ' expandable' : ''}">
       <h4>${esc(p.name)}</h4>
       <p>${esc(p.description ?? '')}${p.url ? ` <a href="${esc(p.url)}">${esc(linkLabel(p.url))}</a>` : ''}</p>${p.highlights?.length ? `
-      <ul>
-${p.highlights.map(h => `        <li>${esc(h)}</li>`).join('\n')}
-      </ul>` : ''}
+      <div class="details" id="project-${i}">
+        <div>
+          <ul>
+${p.highlights.map(h => `            <li>${esc(h)}</li>`).join('\n')}
+          </ul>${p.keywords?.length ? `
+          <p class="tech"><strong>Technologies:</strong> ${esc(p.keywords.join(', '))}.</p>` : ''}
+        </div>
+      </div>
+      <button type="button" class="expand" aria-expanded="false" aria-controls="project-${i}" hidden>Show details</button>` : ''}
     </div>`).join('\n')}
   </div>
 </section>
@@ -202,6 +208,20 @@ ${conferences.map(c => `    <li>${esc(c.name)}, ${esc(date(c.startDate))}</li>`)
 </footer>
 
 </main>
+<script>
+// Project highlights start collapsed; without JavaScript they stay open.
+for (const button of document.querySelectorAll('.card .expand')) {
+  const card = button.closest('.card');
+  card.classList.add('collapsed');
+  button.hidden = false;
+  button.addEventListener('click', () => {
+    const open = card.classList.toggle('collapsed') === false;
+    button.setAttribute('aria-expanded', open);
+    button.textContent = open ? 'Show less' : 'Show details';
+    if (open) card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  });
+}
+</script>
 </body>
 </html>
 `;

@@ -23,7 +23,8 @@
     "Super.mx": {
       "highlights": [
         "Improved security by hashing sensitive values and adding magic-link login.",
-        "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products."
+        "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products.",
+        "Migrated the frontend build from Webpack to esbuild, simplifying the asset pipeline and speeding up builds."
       ]
     },
     "Resuelve": {

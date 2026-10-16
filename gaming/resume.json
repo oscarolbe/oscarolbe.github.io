@@ -90,6 +90,7 @@
         "JavaScript hooks",
         "Alpine.js",
         "Tailwind CSS",
+        "esbuild",
         "Stripe",
         "Metamap",
         "Leaflet",
@@ -136,7 +137,7 @@
       "highlights": [
         "Led the redesign and maintenance of the Clarovideo streaming app for Android mobile and set-top boxes.",
         "Led the redesign that changed the interface and improved performance, including replacing ListView with RecyclerView and prefetching API requests based on user focus.",
-        "Upgraded the mobile player to support DASH alongside HLS.",
+        "Replaced the mobile player with ExoPlayer, adding DASH support alongside HLS.",
         "Involved in ClaroMúsica web player events using React/Redux.",
         "Managed six developers by delegating tickets and providing technical guidance."
       ],

@@ -58,6 +58,7 @@
       "highlights": [
         "Built the COVID and life insurance purchase flows, then released the life product using LiveView as a multi-step flow.",
         "Migrated the quake product from Vue.js to LiveView.",
+        "Migrated the frontend build from Webpack to esbuild, simplifying the asset pipeline and speeding up builds.",
         "Built reusable flows for life, quake, COVID, and home insurance, including A/B test variants.",
         "Built the life insurance renewal process: new documents, a new Stripe subscription, and endorsements.",
         "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products.",
@@ -65,7 +66,7 @@
         "Added identity verification with Metamap and mapping with Leaflet and the Google Maps API through Phoenix hooks.",
         "Generated and manipulated PDFs with wkhtmltopdf and PDFtk."
       ],
-      "keywords": ["Elixir", "Phoenix", "LiveView", "JavaScript hooks", "Alpine.js", "Tailwind CSS", "Stripe", "Metamap", "Leaflet", "Google Maps API", "wkhtmltopdf", "PDFtk"]
+      "keywords": ["Elixir", "Phoenix", "LiveView", "JavaScript hooks", "Alpine.js", "Tailwind CSS", "esbuild", "Stripe", "Metamap", "Leaflet", "Google Maps API", "wkhtmltopdf", "PDFtk"]
     },
     {
       "name": "Resuelve",
@@ -95,7 +96,7 @@
       "highlights": [
         "Led the redesign and maintenance of the Clarovideo streaming app for Android mobile and set-top boxes.",
         "Led the redesign that changed the interface and improved performance, including replacing ListView with RecyclerView and prefetching API requests based on user focus.",
-        "Upgraded the mobile player to support DASH alongside HLS.",
+        "Replaced the mobile player with ExoPlayer, adding DASH support alongside HLS.",
         "Involved in ClaroMúsica web player events using React/Redux.",
         "Managed six developers by delegating tickets and providing technical guidance."
       ],

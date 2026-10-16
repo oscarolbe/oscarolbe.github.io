@@ -86,7 +86,8 @@
       "summary": "Joined as the second full-time engineer and worked on the monolithic Elixir application. The team had no fixed hierarchy, and everyone worked at a senior level.",
       "highlights": [
         "Improved security by hashing sensitive values and adding magic-link login.",
-        "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products."
+        "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products.",
+        "Migrated the frontend build from Webpack to esbuild, simplifying the asset pipeline and speeding up builds."
       ],
       "keywords": [
         "Elixir",
@@ -95,6 +96,7 @@
         "JavaScript hooks",
         "Alpine.js",
         "Tailwind CSS",
+        "esbuild",
         "Stripe",
         "Metamap",
         "Leaflet",

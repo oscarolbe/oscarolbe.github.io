@@ -90,6 +90,7 @@
       "highlights": [
         "Built the COVID and life insurance purchase flows, then released the life product using LiveView as a multi-step flow.",
         "Migrated the quake product from Vue.js to LiveView.",
+        "Migrated the frontend build from Webpack to esbuild, simplifying the asset pipeline and speeding up builds.",
         "Built reusable flows for life, quake, COVID, and home insurance, including A/B test variants.",
         "Built the life insurance renewal process: new documents, a new Stripe subscription, and endorsements.",
         "Re-architected the Stripe payments integration with simplified webhooks, the Stripe Customer Portal, and customized forms across all products.",
@@ -104,6 +105,7 @@
         "JavaScript hooks",
         "Alpine.js",
         "Tailwind CSS",
+        "esbuild",
         "Stripe",
         "Metamap",
         "Leaflet",
